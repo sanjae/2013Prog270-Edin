@@ -1,0 +1,16 @@
+ Volume in drive C has no label.
+ Volume Serial Number is C2C6-8E37
+
+ Directory of C:\Users\sanja.edin\Documents\GitHub\EdinWeek08GitPractice
+
+10/31/2013  09:26 PM               505 .gitattributes
+10/31/2013  09:26 PM             2,858 .gitignore
+12/07/2013  05:47 PM                31 Test01.md
+12/07/2013  05:47 PM                30 Test02.md
+12/07/2013  06:31 PM               838 CloudNine.txt
+12/07/2013  06:31 PM    <DIR>          images
+12/07/2013  06:32 PM    <DIR>          .
+12/07/2013  06:32 PM    <DIR>          ..
+12/07/2013  06:32 PM                 0 Windows.txt
+               6 File(s)          4,262 bytes
+               3 Dir(s)  66,682,191,872 bytes free

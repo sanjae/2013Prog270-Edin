@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html ng-app="elvenApp">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Data & Animation</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="bootstrap.css" rel="stylesheet">
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-theme.min.css">
+    
+
+    <!-- Add custom CSS here -->
+    <link href="business-casual.css" rel="stylesheet">
+    <script src="jquery.js"></script>
+    <script src="//netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
+    <script src="index.js"></script>
+    <script src="angular.js"></script>
+    <script src="angular-resource.js"></script>
+    <script src="MongoData.js"></script>
+</head>
+
+<body>
+
+
+    <div class="brand">Sanja's Prog270 Midterm Project</div>
+    <div class="address-bar">The Plaza | 222 Some Street | Some City, WA 98072 | 555.555.555</div>
+
+    <nav class="navbar navbar-default" role="navigation">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="index.html">Sanja's Prog270 Midterm Project </a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse navbar-ex1-collapse">
+                <ul class="nav navbar-nav">
+                    <li><a href="Index.html">Home</a></li>
+                    <li><a href="NewSkills.html">New Skills</a></li>
+                    <li><a href="data.html">Data & Animation</a></li>
+                    <li><a href="LinuxAndAndroid.html">Linux & Android</a></li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+
+
+    <div class="container">
+
+        <div class="row">
+
+            <div class="box">
+                <div class="col-lg-12">
+                    <hr>
+                    <h2 class="intro-text text-center"><strong>Data & Animation</strong> page</h2>
+                    <hr>
+                </div>
+                <div class="starter-template" align="middle">
+                    <h1>Animate Bootstrap</h1>
+                    <div id='drawHere01' class='draw-target'></div>
+                    <div id='drawHere02' class='draw-target'></div>
+                </div>
+                <div class="col-lg-12 text-center">
+                    <h2>Animation<br>
+                        <small>Using JavaScript </small></h2>
+                    <p>
+                        Adding animation is easy if you know a few key items. First, you add the bitmaps into your HTML file.
+                Then you add Mr. Calvert's index.js file and finish it up by linking your HTML file to js file. It helps
+                to upload index.js file to your repo.
+       
+                    </p>
+                    <hr>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="box">
+                <div class="starter-template">
+                    <h1 align="middle">Database from Mongo Lab</h1>
+                    <div id="monogoData" ng-controller="MyController">
+                        <p>
+                            This project retrieves a small amount of JSON from
+					            a node server.
+                        </p>
+                        <p>Rows in DB: {{presidentsLength}}</p>
+                        <ul>
+                            <li ng-repeat="president in presidents">
+                                <p>
+                                    {{president.getPresidentName()}}<br />
+                                    TermStart: {{president.getTermStart()}}<br />
+                                    TermEnd: {{president.getTermEnd()}}
+                   
+                                </p>
+                            </li>
+                        </ul>
+                        <div ng-bind-html-unsafe="hint"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- /.container -->
+
+
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <p>Copyright &copy; Sanja Edin 2013</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap core JavaScript -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <!-- Make sure to add jQuery - download the most recent version at http://jquery.com/ -->
+    <script src="jquery.js"></script>
+    <script src="bootstrap.js"></script>
+    <script>
+        // Activates the Carousel
+        $('.carousel').carousel({
+            interval: 2000
+        })
+	</script>
+</body>
+</html>
+
