@@ -1,0 +1,210 @@
+<!DOCTYPE HTML>
+<html ng-app="elvenApp">
+	<head>
+		<meta charset="utf-8" />
+		<title>Android Bootstrap - Apps & More</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="shortcut icon" href="Images/favicon.png">
+		<!-- Latest compiled and minified CSS -->
+		<link href="Style/bootstrap.css" rel="stylesheet" >
+		<!-- link href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css" rel="stylesheet" -->
+		<!-- Optional theme -->
+		<link href="Style/Carousel.css" rel="stylesheet" type="text/css" />
+		<link href="Style/index.css" rel="stylesheet" type="text/css" />
+		<!-- Latest compiled and minified JavaScript - Move to bottom of body element -->
+		<script src="Source/jquery.js"></script>
+		<script src="Source/bootstrap.min.js"></script>
+		<script src="Source/angular.js"></script>
+		<script src="Source/angular-resource.js"></script>
+		<script src="Source/MongoData.js"></script>
+		<script src="Source/index.js"></script>
+		
+	</head>
+	<body style="background-image:url(Images/back.png)">
+		
+		<!-- Nav Bar
+		================================================== -->
+
+		<div class="navbar-wrapper">
+		<div class="container">
+
+		<div class="navbar navbar-inverse navbar-static-top">
+		  <div class="container">
+			<div class="navbar-header">
+			  <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+				<span class="icon-bar"> </span>
+				<span class="icon-bar"> </span>
+				<span class="icon-bar"> </span>
+			  </button>
+			  <a class="navbar-brand" href="#">Week 09</a>
+			</div>
+			<div class="navbar-collapse collapse">
+			  <ul class="nav navbar-nav">
+				<li><a href="index.html">Home</a></li>
+				<li class="active"><a href="Apps.html">Apps</a></li>
+				<li><a href="Security.html">Security</a></li>
+				<li class="dropdown">
+				  <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <b class="caret"></b></a>
+				  <ul class="dropdown-menu">
+					<li><a href="index.html">Home</a></li>
+					<li><a href="Apps.html">Apps</a></li>
+					<li><a href="Security.html">Security</a></li>
+				  </ul>
+				</li>
+			  </ul>
+			</div>
+		  </div>
+		</div>
+
+		</div>
+		</div> <!-- Navbar wrapper -->
+				
+		<!-- Carousel
+        ================================================== -->
+        <div id="myCarousel" class="carousel slide">
+            <!-- Indicators -->
+            <ol class="carousel-indicators">
+                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                <li data-target="#myCarousel" data-slide-to="1"></li>
+                <li data-target="#myCarousel" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="item active">
+                    <img src="Images/Image140X140A.png"#777:#7a7a7a alt="First slide">
+                    <div class="container">
+                        <div class="carousel-caption">
+                            <h1>Click to see the <a href="#feature01">Home Page & more</a></h1>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="Images/Image140X140B.png" alt="Second slide">
+                    <div class="container">
+                        <div class="carousel-caption">
+                            <h1>Click to see the <a href="#feature02">Flipboard App</a></h1>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="Images/Image140X140C.png" alt="Third slide">
+                    <div class="container">
+                        <div class="carousel-caption">
+                            <h1>Click to see the <a href="#feature03">Books, Music & TV Apps</a></h1>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- a class="left carousel-control" href="#myCarousel" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a -->
+            <a class="left carousel-control" href="#myCarousel" data-slide="prev"><span class="carousel-arrows">&#5595;</span></a>
+            <a class="right carousel-control" href="#myCarousel" data-slide="next"><span class="carousel-arrows">&#5593;</span></a>
+        </div><!-- /.carousel -->
+
+
+
+
+ <!-- START THE FEATURETTES -->
+
+    
+
+      <div class="row featurette">
+        <div class="col-md-7">
+        <hr>
+          <h2 class="featurette-heading">Home page & tablet specs</h2>
+          
+         <hr>
+         <p> <h3>Home page is easy to customize and attractive looking.</h3>
+             <table>
+        <tr>
+            <th colspan="2"><h3>General Specifications:</h3></th>
+        </tr>
+        <tr>
+            <td class='bld'>Manufacturer</td>
+            <td>asus</td>
+        </tr>
+        <tr>
+            <td class='bld'>Model</td>
+            <td>ME173X</td>
+        </tr>
+        <tr>
+            <td class='bld'>Android version</td>
+            <td>4.2.1; WW_memo-WW_user_4.2.2.91525_20130711-user-20130711; SDK17</td>
+        </tr>
+        <tr>
+            <td class='bld'>CPU</td>
+            <td>4 cores; ARMv7 Processor rev 2 (v7l) ME173X; Max: 1209,0 MHz; Min: 497,2 MHz</td>
+        </tr>
+        <tr>
+            <td class='bld'>Display</td>
+            <td>1280 x 800; DPI: 213; Evaluated Size: 7,1"</td>
+        </tr>
+        <tr>
+            <td class='bld'>Touch screen</td>
+            <td>Multitouch 10 points</td>
+        </tr>
+        <tr>
+            <td class='bld'>GPU</td>
+            <td>PowerVR SGX 544MP; Imagination Technologies; OpenGL ES-CM 1.1; OpenGL ES 2.0 build 1.9@2204701</td>
+        </tr>
+        <tr>
+            <td class='bld'>RAM</td>
+            <td>1024 MB (1014 MB available)</td>
+        </tr>
+        <tr>
+            <td class='bld'>Flash</td>
+            <td>
+    16 GB (14.653 GB actual) 
+                </td>
+            </tr>
+        </table>
+          </p>
+         <p>This table has a glossy cover with a 1280 x 800 display. 
+          There is a 5 megapixel camera on the back, and the 1.2 megapixel 
+          camera on the front provides smooth video calls.</p>
+          
+        </div>
+        <div class="col-md-5">          
+          <img class="half" src="https://googledrive.com/host/0B-RCaJJcydMIVFNudmtFcktUdDQ/Screenshot_2013-11-26-17-43-47.jpg" alt="home page">
+        </div>
+      </div>
+
+      <hr  id="feature02" class="featurette-divider">
+
+      <div class="row featurette">
+        <div class="col-md-5">
+          <img class="half" src="https://googledrive.com/host/0B-RCaJJcydMIVFNudmtFcktUdDQ/Screenshot_2013-11-26-17-43-47.jpg" alt="About Tablet Screenshot" >
+        </div>
+        <div class="col-md-7">
+          <h2 class="featurette-heading">Flipboard and Zinio</h2>
+          <p class="lead">I was able to find Flipboard in the Play Store. 
+          Here is what "ThinkDigit" had to say about the app:<pre>Available for iOS for over a year now, Flipboard is your
+          personalized magazine app for not only consuming news content but also keeping track of your YouTube 
+          subscriptions and social networking feeds...Navigating through the app is as simple as flipping through the 
+          stories one at a time. Users can flip up/down to see the next/previous story on the list. 
+          You can go through the stories either through your predefined feeds such as Google Reader or the 
+          preselected categories.While reading the story, you have the option to tweet it, 
+          add the story to your favourite list and share the link. 
+          You also have the option to view the story on the original website on the webpage.</pre> </p>
+        </div>
+      </div>
+
+      <hr  id="feature03" class="featurette-divider">
+
+      <div class="row featurette">
+        <div class="col-md-7">
+          <h2 class="featurette-heading">Books, Music, TV Google Apps</h2>
+          <p>I was also able to find apps in the Play store for Books, Music and TV.</p>
+        </div>
+        <div class="col-md-5">
+          <img src="Images/booksMusicTv.png" alt="Storage Screenshot" >
+        </div>
+      </div>
+
+      <hr class="featurette-divider">
+
+      <!-- /END THE FEATURETTES -->
+		</div><!-- /.container -->
+
+	</body>
+</html>
